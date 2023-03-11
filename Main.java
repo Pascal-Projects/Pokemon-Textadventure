@@ -11,7 +11,9 @@ public class Main {
         commands.put("quit",Main.class.getMethod("quitGame"));
         commands.put("forward",Main.class.getMethod("forward"));
         commands.put("backward",Main.class.getMethod("backward"));
-
+        commands.put("right",Main.class.getMethod("right"));
+        commands.put("left",Main.class.getMethod("left"));
+        commands.put("state", Main.class.getMethod("printState"));
 
 
         commands.get("help").invoke(null);
