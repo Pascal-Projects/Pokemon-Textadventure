@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"Alle Packages","u":"allpackages-index.html"},{"l":"PokeAdventure"},{"l":"PokeAdventure.pokemon"}];updateSearchResults();
