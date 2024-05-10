@@ -1,5 +1,3 @@
-package PokeAdventure;
-
 public class Pokemon {
     private String name = "";
 

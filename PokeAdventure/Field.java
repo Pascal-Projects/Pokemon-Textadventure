@@ -1,5 +1,3 @@
-package PokeAdventure;
-
 public class Field {
     private Pokemon[] pokemonList;
 
