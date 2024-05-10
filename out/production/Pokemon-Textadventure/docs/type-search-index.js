@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"Alle Klassen und Schnittstellen","u":"allclasses-index.html"},{"p":"PokeAdventure","l":"Field"},{"p":"PokeAdventure","l":"Main"},{"p":"PokeAdventure","l":"Map"},{"p":"PokeAdventure","l":"Player"},{"p":"PokeAdventure","l":"Pokemon"}];updateSearchResults();

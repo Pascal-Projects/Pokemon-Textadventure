@@ -46,7 +46,7 @@ public class Main {
                 commands.get(command).invoke(null);
             } else if (command.equals("quit")) {
                 System.out.println("Goodbye!");
-                System.exit(0);
+                break;
             }
             else {
                 System.out.println("Invalid command. Please try again.");
@@ -57,5 +57,9 @@ public class Main {
 
     public static void printHelp() {
         System.out.println("Test");
+    }
+
+    public static Player getPlayer() {
+        return player;
     }
 }
