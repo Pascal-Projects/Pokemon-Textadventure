@@ -36,7 +36,25 @@ public class Main {
         
         if (!"".equals(playerName) && mapHeight > 0 && mapWidth > 0) {
             player = new Player(playerName);
+        } else {
+            System.out.println("Invalid input. Exiting game.");
+            System.exit(1);
         }
+
+        while (true) {
+            System.out.println("Please enter a command:");
+            String command = scanner.nextLine();
+            if (commands.containsKey(command)) {
+                commands.get(command).invoke(null);
+            } else if (command.equals("quit")) {
+                System.out.println("Goodbye!");
+                System.exit(0);
+            }
+            else {
+                System.out.println("Invalid command. Please try again.");
+            }
+        }
+
     }
 
     public static void printHelp() {
